@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="fizz_buzz.FizzBuzzTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-11-23T04:31:39" hostname="UNIT2020-25" time="0.018">
+<testsuite name="fizz_buzz.FizzBuzzTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2020-11-23T04:34:01" hostname="UNIT2020-25" time="0.016">
   <properties/>
-  <testcase name="whenGiven3FizzBuzzSaysFizz" classname="fizz_buzz.FizzBuzzTest" time="0.018">
-    <failure message="java.lang.AssertionError: &#10;Expected: is &quot;Fizz&quot;&#10;     but: was &quot;3&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
-Expected: is &quot;Fizz&quot;
-     but: was &quot;3&quot;
+  <testcase name="whenGiven2FizzBuzzSays2" classname="fizz_buzz.FizzBuzzTest" time="0.012"/>
+  <testcase name="whenGiven1FizzBuzzSays1" classname="fizz_buzz.FizzBuzzTest" time="0.0"/>
+  <testcase name="whenGiven5FizzBuzzSaysBuzz" classname="fizz_buzz.FizzBuzzTest" time="0.004">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &quot;Buzz&quot;&#10;     but: was &quot;5&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &quot;Buzz&quot;
+     but: was &quot;5&quot;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-	at fizz_buzz.FizzBuzzTest.whenGiven3FizzBuzzSaysFizz(FizzBuzzTest.java:33)
+	at fizz_buzz.FizzBuzzTest.whenGiven5FizzBuzzSaysBuzz(FizzBuzzTest.java:45)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -60,6 +62,8 @@ Expected: is &quot;Fizz&quot;
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
+  <testcase name="whenGiven3FizzBuzzSaysFizz" classname="fizz_buzz.FizzBuzzTest" time="0.0"/>
+  <testcase name="whenGiven4FizzBuzzSays4" classname="fizz_buzz.FizzBuzzTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
