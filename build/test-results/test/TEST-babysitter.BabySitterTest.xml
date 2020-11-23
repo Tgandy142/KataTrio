@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="babysitter.BabySitterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-23T05:46:20" hostname="UNIT2020-25" time="0.009">
+  <properties/>
+  <testcase name="oneHourPostBedTimeAndAfterMidnightShouldPay16" classname="babysitter.BabySitterTest" time="0.006"/>
+  <testcase name="twoHoursPreBedTimeShouldPay24" classname="babysitter.BabySitterTest" time="0.0"/>
+  <testcase name="oneHourPreBedTimeShouldPay12" classname="babysitter.BabySitterTest" time="0.0"/>
+  <testcase name="threeHoursPostBedTimeShouldPay24" classname="babysitter.BabySitterTest" time="0.0"/>
+  <testcase name="threeHoursPreBedTimeShouldPay36" classname="babysitter.BabySitterTest" time="0.0"/>
+  <testcase name="oneHourPostBedTimeShouldPay8" classname="babysitter.BabySitterTest" time="0.0"/>
+  <testcase name="twoHoursPostBedTimeShouldPay16" classname="babysitter.BabySitterTest" time="0.001"/>
+  <testcase name="threeHoursPostBedTimeAndAfterMidnightShouldPay48" classname="babysitter.BabySitterTest" time="0.0"/>
+  <testcase name="twoHoursPostBedTimeAndAfterMidnightShouldPay32" classname="babysitter.BabySitterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
