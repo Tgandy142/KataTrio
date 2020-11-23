@@ -25,8 +25,7 @@ public class TriangleSorter {
             return "Right";
         else if(sideB+sideC > sideA)
             return "Scalene";
-
-
-        return "";
+        else
+            return "Triangle Cannot Be Formed";
     }
 }

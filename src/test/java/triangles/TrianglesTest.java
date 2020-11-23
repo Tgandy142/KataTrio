@@ -31,4 +31,10 @@ public class TrianglesTest {
         String triangleType = underTest.analyze(2,3,4);
         assertThat(triangleType, is("Scalene"));
     }
+    @Test
+    public void canCheckIfTriangleCanBeMade() {
+        TriangleSorter underTest = new TriangleSorter();
+        String triangleType = underTest.analyze(2,3,5);
+        assertThat(triangleType, is("Triangle Cannot Be Formed"));
+    }
 }
