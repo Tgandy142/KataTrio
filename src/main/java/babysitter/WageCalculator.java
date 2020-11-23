@@ -1,7 +1,32 @@
 package babysitter;
 
 public class WageCalculator {
+    private System system;
+
     public int calculateShiftWage(int startingHour, int endingHour, int bedtime) {
-        return 0;
+        int hoursWorked = 0, hoursBeforeBedtime = 0, hoursWorkedAfterTwelve = 0, wage = 0;
+        if(endingHour < startingHour) {
+            hoursWorked = (24 - startingHour) + endingHour;
+            hoursWorkedAfterTwelve = endingHour;
+        }
+        else
+            hoursWorked = endingHour-startingHour;
+        if(bedtime > startingHour)
+        {
+            if(endingHour < startingHour && endingHour < bedtime)
+                hoursBeforeBedtime = 0;
+            else {
+                hoursBeforeBedtime = bedtime - startingHour;
+                hoursBeforeBedtime -= (bedtime - endingHour);
+            }
+        }
+        else
+            hoursBeforeBedtime = 0;
+
+        hoursWorked = hoursWorked-hoursBeforeBedtime-hoursWorkedAfterTwelve;
+
+        wage = wage + (hoursBeforeBedtime*12)+(hoursWorkedAfterTwelve*16)+(hoursWorked*8);
+
+        return wage;
     }
 }
