@@ -7,6 +7,25 @@ public class TriangleSorter {
         else if(sideA == sideB || sideA == sideC || sideB == sideC)
             return "Isosceles";
 
+        int temp = 0;
+        if(sideB > sideA && sideB > sideC)
+        {
+            temp = sideA;
+            sideA = sideB;
+            sideB = temp;
+        }
+        else if(sideC > sideB && sideC > sideA)
+        {
+            temp = sideA;
+            sideA = sideC;
+            sideC = temp;
+        }
+
+        if((sideB*sideB)+(sideC*sideC) == (sideA*sideA))
+            return "Right";
+
+
+
         return "";
     }
 }
