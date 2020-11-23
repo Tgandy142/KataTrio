@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="fizz_buzz.FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-23T04:30:17" hostname="UNIT2020-25" time="0.011">
+  <properties/>
+  <testcase name="whenGiven1FizzBuzzSays1" classname="fizz_buzz.FizzBuzzTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
