@@ -23,7 +23,8 @@ public class TriangleSorter {
 
         if((sideB*sideB)+(sideC*sideC) == (sideA*sideA))
             return "Right";
-
+        else if(sideB+sideC > sideA)
+            return "Scalene";
 
 
         return "";
